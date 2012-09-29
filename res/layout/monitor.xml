@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <com.baidu.mapapi.MapView
+        android:id="@+id/monitorMapView"
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:clickable="true" 
+    />
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="40dip"
+        android:baselineAligned="false"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/historyBt"
+            android:layout_width="0dip"
+            android:layout_weight="1"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="-8dip"
+            android:layout_marginBottom="-8dip"
+            android:text="@string/history" />
+
+        <Button
+            android:id="@+id/trackerBt"
+            android:layout_width="0dip"
+            android:layout_weight="1"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="-8dip"
+            android:layout_marginBottom="-8dip"
+            android:text="@string/tracker" />
+        
+         <Button
+            android:id="@+id/exitBt"
+            android:layout_width="0dip"
+            android:layout_weight="1"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="-8dip"
+            android:layout_marginRight="-8dip"
+            android:layout_marginBottom="-8dip"
+            android:text="@string/exit" />
+    </LinearLayout>
+</LinearLayout>

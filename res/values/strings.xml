@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">经纬智达</string>
+    <string name="back">返回</string>
+    <string name="history">查询轨迹</string>
+    <string name="tracker">实时监控</string>
+    <string name="list_state">监控</string>
+    <string name="list_name">名称</string>
+    <string name="synchronize">同步</string>
+    <string name="allselect">全选</string>
+    <string name="define">确定</string>
+    <string name="cancel">取消</string>
+    <string name="set">设置</string>
+    <string name="play">播放</string>
+    <string name="pause">暂停</string>
+    <string name="stop">停止</string>
+    <string name="set_tracker">跟踪器:</string>
+    <string name="set_date">日期:</string>
+    <string name="set_speed">速度:</string>
+    <string name="login">登录</string>
+    <string name="exit">退出</string>
+    <string name="username">请输入用户名</string>
+    <string name="password">请输入密码</string>
+    <string name="title">地理位置信息动态管理系统</string>
+
+</resources>

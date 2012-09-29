@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="pop_title"> <!-- 为样式定义一个全局唯一的名字-->
+        <item name="android:textSize">13px</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:text">#000000</item>
+    </style>
+    
+    <style name="pop_content">
+    	<item name="android:textSize">12px</item>
+    	<item name="android:textColor">#0000ff</item>
+    </style>
+</resources>
